@@ -9,12 +9,17 @@
         android:id="@+id/recipeImage"
         android:layout_width="64dp"
         android:layout_height="64dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/ic_launcher_background"
         android:scaleType="centerCrop"/>
 
     <TextView
         android:id="@+id/recipeName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:layout_marginStart="16dp"/>
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="60dp"
+        android:text="test"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="18sp" />
 </LinearLayout>
