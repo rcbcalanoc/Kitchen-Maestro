@@ -1,20 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <View
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:background="@color/header_color"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/header_text"
+        android:layout_width="256dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/company"
+        android:textAlignment="center"
+        android:textSize="27dp"
+        app:layout_constraintStart_toStartOf="@id/header"
+        app:layout_constraintTop_toTopOf="@id/header"/>
 
     <ImageView
         android:id="@+id/detailRecipeImage"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="200dp"
-        android:scaleType="centerCrop"/>
+        android:layout_marginTop="24dp"
+        android:src="@drawable/spaghetti"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header" />
 
     <TextView
         android:id="@+id/detailRecipeName"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/detailRecipeImage"
-        android:padding="16dp"
-        android:textSize="18sp"/>
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/test_title"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/detailRecipeImage" />
 
-</RelativeLayout>
+    <TextView
+        android:id="@+id/detailRecipeInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text=""
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/detailRecipeName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
