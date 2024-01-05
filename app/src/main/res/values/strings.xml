@@ -2,4 +2,72 @@
     <string name="app_name">Calanoc_EX4</string>
     <string name="company">KITCHEN MAESTRO</string>
     <string name="test_title">Filipino Spaghetti</string>
+    <string name="spaghetti_instruction">
+        &#8226; Cook the Spaghetti noodles according to package instructions. Once cooked, transfer to a bowl. Set aside.
+        \n&#8226; Heat the oil in a Pan.
+        \n&#8226; Saute the onion and garlic.
+        \n&#8226; Once the onions becomes soft, add the ground pork. Cook until the color turns light brown.
+        \n&#8226; Add the luncheon meat and hotdog. Stir and cook for 2 to 3 minutes.
+        \n&#8226; Pour-in the Spaghetti sauce and beef broth. Stir and let boil. Cover and simmer for 30 minutes.
+        \n&#8226; Try to taste the sauce and add salt and pepper if needed.
+        \n&#8226; Pour the Filipino Style Spaghetti sauce over the Spaghetti. Top with shredded cheese.
+    </string>
+    <string name="takoyaki_instruction">
+        &#8226; Mix 1 cup takoyaki flour with 2 cups dashi stock to create a smooth batter.
+        \n&#8226; Preheat a takoyaki pan and grease the molds with cooking oil.
+        \n&#8226; Pour the batter into the molds, add diced octopus, green onions, tenkasu, and pickled ginger.
+        \n&#8226; Cook on medium heat until the edges start to firm up.
+        \n&#8226; Using a skewer, flip the partially cooked takoyaki to form a ball shape.
+        \n&#8226; Cook until golden brown and crispy on all sides.
+        \n&#8226; Drizzle with takoyaki sauce and mayonnaise.
+        \n&#8226; Garnish with bonito flakes and aonori before serving.
+    </string>
+    <string name="yakisoba_instruction">
+        &#8226; Boil yakisoba noodles according to package instructions, then drain and set aside.
+        \n&#8226; Heat oil in a pan and stir-fry sliced pork or your preferred protein until cooked.
+        \n&#8226; Add julienned vegetables (cabbage, carrots, and onions) to the pan and sauté until tender.
+        \n&#8226; Push the cooked ingredients to one side of the pan and add more oil, then stir in the cooked noodles.
+        \n&#8226; Pour yakisoba sauce over the noodles and toss everything together until well coated.
+        \n&#8226; Continue cooking until the noodles are heated through and slightly crispy.
+        \n&#8226; Garnish with chopped green onions and pickled red ginger.
+    </string>
+    <string name="senbei_instruction">
+        &#8226; Mix 2 cups glutinous rice flour with 1 cup water to form a sticky rice dough.
+        \n&#8226; Divide the dough into small portions and shape them into flat, round discs.
+        \n&#8226; Heat a non-stick skillet or griddle over medium heat.
+        \n&#8226; Place the rice discs on the skillet and cook until the bottoms are golden brown.
+        \n&#8226; Flip the discs and cook the other side until crispy and lightly browned.
+        \n&#8226; Remove from heat and let them cool slightly.
+        \n&#8226; Optionally, brush the senbei with soy sauce or your preferred seasoning for flavor.
+        \n&#8226; Allow the senbei to cool completely before storing in an airtight container.
+    </string>
+    <string name="ramen_instruction">
+        &#8226; Boil ramen noodles in water according to package instructions, then drain and set aside.
+        \n&#8226; In a pot, heat a flavorful broth (chicken, beef, or vegetable) until simmering.
+        \n&#8226; Cook protein of choice (sliced pork, chicken, tofu) in the broth until fully cooked.
+        \n&#8226; Add ramen noodles to the broth, stirring gently to separate.
+        \n&#8226; Mix in vegetables like bok choy, mushrooms, and green onions, cooking until tender.
+        \n&#8226; Season with soy sauce, miso, or your preferred ramen seasoning to taste.
+        \n&#8226; Ladle the ramen into bowls, ensuring a balance of noodles, broth, and toppings.
+        \n&#8226; Garnish with a soft-boiled egg, nori strips, and sesame seeds before serving.
+    </string>
+    <string name="onigiri_instruction">
+        &#8226; Cook short-grain sushi rice according to package instructions and let it cool slightly.
+        \n&#8226; Wet your hands and sprinkle them with salt to prevent sticking.
+        \n&#8226; Take a handful of rice and form it into a triangular or oval shape in your palm.
+        \n&#8226; Create an indentation in the center and add a filling such as grilled salmon, pickled plum, or seasoned seaweed.
+        \n&#8226; Cover the filling with more rice, shaping and pressing to form a compact triangle or oval.
+        \n&#8226; Optional: Wrap the onigiri with a strip of nori for added flavor and easy handling.
+        \n&#8226; Repeat the process for additional onigiri, keeping hands moistened to prevent sticking.
+    </string>
+    <string name="crepes_instruction">
+        &#8226; In a blender, combine 1 cup all-purpose flour, 2 eggs, 1 cup milk, 2 tablespoons melted butter, and a pinch of salt until smooth.
+        \n&#8226; Heat a non-stick skillet over medium heat and lightly grease with butter or oil.
+        \n&#8226; Pour a small amount of batter into the pan, swirling to coat the bottom evenly.
+        \n&#8226; Cook until the edges lift, then flip the crepe and cook the other side briefly.
+        \n&#8226; Repeat until the batter is finished, stacking the crepes on a plate.
+        \n&#8226; Fill each crepe with your desired sweet or savory filling, like Nutella, strawberries, or ham and cheese.
+        \n&#8226; Fold or roll the crepes and serve warm.
+        \n&#8226; Optionally, dust with powdered sugar or drizzle with chocolate for added sweetness.
+    </string>
 </resources>
