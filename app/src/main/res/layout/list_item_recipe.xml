@@ -10,7 +10,7 @@
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:layout_marginStart="20dp"
-        android:src="@drawable/ic_launcher_background"
+        android:src="@drawable/spaghetti"
         android:scaleType="centerCrop"/>
 
     <TextView
@@ -19,7 +19,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_marginStart="60dp"
-        android:text="test"
         android:fontFamily="@font/poppins_regular"
         android:textSize="18sp" />
 </LinearLayout>

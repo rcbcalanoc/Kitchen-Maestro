@@ -2,18 +2,19 @@ package com.example.calanoc_ex4;
 
 public class Recipe {
     private String name;
-    private int imageResourceId;
+    private String imageName; // Add this field
 
-    public Recipe(String name, int imageResourceId) {
+    public Recipe(String name, String imageName) {
         this.name = name;
-        this.imageResourceId = imageResourceId;
+        this.imageName = imageName;
     }
 
     public String getName() {
         return name;
     }
 
-    public int getImageResourceId() {
-        return imageResourceId;
+    public String getImageName() { // Add this method
+        return imageName;
     }
 }
+
